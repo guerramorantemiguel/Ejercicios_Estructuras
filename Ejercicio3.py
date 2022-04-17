@@ -1,9 +1,13 @@
+class Producto:
+  def __init__(self,precio_bruto_producto):
+    self.precio_bruto_producto = 100
+  def facturar(self):
+    precio_neto_producto = precio_bruto_producto + precio_bruto_producto * IVA
+    
 
-precio_bruto_producto = 100
 IVA_alimentacion = 0,055
 IVA_servicios = 0,20
 
-precio_neto_producto = precio_bruto_producto + precio_bruto_producto * IVA
 
 if  producto(naturaleza.servicios):
   precio_neto_producto = precio_bruto_producto + precio_bruto_producto * IVA_servicios
