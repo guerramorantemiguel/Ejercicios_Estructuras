@@ -5,5 +5,7 @@ class Texto:
   def mayusculas(self):
     self.linea_1 = self.linea_1.upper()
     self.linea_2 = self.linea_2.upper()
+    return Texto
+    
     
     
